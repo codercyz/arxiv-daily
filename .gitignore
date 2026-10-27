@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Local secrets & runtime data (never commit)
+.env
+*.key
+secrets/
+data.db
+*.db
+
+# Screenshots from local testing (keep curated ones under docs/assets)
+/screenshots/
+
+# pytest temp & local agent files
+.pytest_tmp/
+.zcode/
+
+# PyInstaller 构建产物
+dist/
+build/
+
+# 参赛文稿/实验数据/调研记录与原始截图——私有，不入库（精选图在 docs/assets）
+docs/*
+!docs/assets/
+
+# 本地运行产物
+*.log
+.tmp*
+.smoke_db/
+crash.log
+.smoke_figs/
